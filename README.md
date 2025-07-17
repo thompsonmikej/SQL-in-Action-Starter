@@ -2,7 +2,7 @@
 
 **Developed at devCodeCamp**
 
-A hands-on lab for practicing SQL queries and relational data modeling. This project provides exercises to help you extract, filter, and analyze information from a database using SQL, guided by entity-relationship diagrams (ERDs).
+A hands-on lab for practicing SQL queries and relational data modeling. These exercises helped me extract, filter, and analyze information from a database using SQL, as guided by entity-relationship diagrams (ERDs).
 
 ---
 
