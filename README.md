@@ -1,76 +1,78 @@
-# SQL_in_Action_Starter
+# SQL-Joins-in-Action-Lab
 
 **Developed at devCodeCamp**
 
-A hands-on lab for practicing SQL queries and relational data modeling. These exercises helped me extract, filter, and analyze information from a database using SQL, as guided by entity-relationship diagrams (ERDs).
+This lab provides hands-on exercises for writing SQL queries that utilize various types of JOINs to extract, analyze, and combine data from multiple related tables. Through practical challenges, you’ll become proficient with INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, and other key join techniques essential for real-world data analysis and reporting.
 
 ---
 
 ## Description
 
-Learn to write and run essential SQL queries for real-world database scenarios. Tasks include extracting specific records, joining tables, filtering results, and visualizing data relationships with ERDs.
+Practice writing SQL JOIN queries to:
+- Combine data from multiple tables with different relationships using INNER, LEFT, RIGHT, and FULL JOINs.
+- Use entity-relationship diagrams (ERDs) to understand table connections and enhance query accuracy.
+- Extract, compare, and ensure consistency in results across joined tables.
 
 ---
 
 ## Features
 
-- Write SQL SELECT queries to extract and analyze data  
-- Filter records using WHERE clauses and sort results  
-- Practice JOIN operations to combine data from multiple tables  
-- Reference ERDs to understand and design database structure  
-- Apply basic aggregate functions (COUNT, SUM, AVG, etc.)
+- Console-based SQL querying and result inspection  
+- Focus on JOIN operations: INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN  
+- Query consistency— validating results across multiple tables  
+- Exercises referencing ERDs for schema visualization  
+- Real-world scenarios for robust database querying
 
 ---
 
 ## Technologies Used
 
 - SQL (Structured Query Language)
-- Relational database (e.g., MySQL, PostgreSQL, or SQLite)
-- ERD diagrams
+- MySQL - Relational Database Management System (RDBMS)
 
 ---
 
 ## Installation
 
 1. **Clone the repository:**
-git clone https://github.com/thompsonmikej/SQL_in_Action_Starter.git
-cd SQL_in_Action_Starter
-text
+    ```
+    git clone https://github.com/thompsonmikej/SQL-Joins-in-Action-Lab.git
+    cd SQL-Joins-in-Action-Lab
+    ```
 
 2. **Set up your SQL environment:**
-- Install your preferred RDBMS (MySQL, PostgreSQL, SQLite, etc.)
-- Import the provided `.sql` schema/scripts to create tables and load sample data
+    - Install and configure your preferred relational database (e.g., MySQL, PostgreSQL).
+    - Use the provided `.sql` files to create tables and load sample data based on the provided ERDs.
 
-3. **Use your database client or command line tool to run queries:**
-- Connect to the sample database
-- Open the exercises or query files to begin practicing
+3. **Practice running join queries:**
+    - Use your SQL client or command-line interface to execute and analyze JOIN operations.
 
 ---
 
 ## Usage
 
-- Review the provided ERD diagrams to understand table relationships
-- Solve each lab exercise by writing and executing SQL queries
-- Experiment with modifying queries to answer new business questions or analyze trends
-- Extend the schema and data as needed to deepen your learning
+- Study provided ERDs to understand table relationships.
+- Complete JOIN challenges by writing and executing queries for combining, filtering, and comparing data from multiple tables.
+- Experiment with different JOIN types to observe their effect on query results.
 
 ---
 
 ## Challenges & Lessons Learned
 
-- Developed proficiency in SQL for querying, filtering, and aggregating relational data  
-- Learned to interpret and utilize ERDs for effective database design  
-- Built confidence in using SQL across different relational database systems
+- Developed advanced SQL skills, focusing on relational JOINs and multi-table queries.
+- Learned to interpret ERDs for better query construction and data consistency.
+- Practiced troubleshooting and optimizing SQL queries for real-world applications.
 
 ---
 
 ## Future Improvements
 
-- Add more advanced exercises (subqueries, group by, window functions)
-- Include automated tests or query validation scripts
-- Expand to data visualization or reporting tasks using SQL results
+- Add more advanced JOIN exercises, including self-joins and cross joins.
+- Integrate large-scale sample datasets for more realistic scenarios.
+- Include automated scripts for result validation and performance measurement.
 
 ---
+
 ## Author
 
 Feel free to reach out or connect:
